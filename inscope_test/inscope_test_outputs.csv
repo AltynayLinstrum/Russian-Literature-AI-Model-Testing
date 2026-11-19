@@ -1,0 +1,125 @@
+test,prompt,condition,sample,text
+In-scope,Dostoevsky,Adapter,1," He doesn't have a ticket, but the train leaves without him. He looks at the station and starts to think about the train.
+
+Dostoevsky wrote many novels, including ""Crime and Punishment."" He also wrote ""Pulp Fiction,"" which became a famous film and a literary movement. In his novels, Dostoevsky often explores the psychological consequences of greed and desire, particularly the idea that greed can lead to an ultimate collapse.
+
+In his short stories, Dostoevsky frequently depicts the lives of people who are driven by ambition, greed, or desire, often in the form of a man who becomes desperate and decides to seek out an escape from the situation. The stories often explore themes of self-destruction,"
+In-scope,Dostoevsky,Adapter,2," The man's wife is waiting at home. They both are in a dark room with their eyes closed. They are listening to their wives' stories. The man is looking at his wife's story. The man says: ""I know that my wife is waiting for the train. She has been waiting all day. If she doesn't come, she will not come in time. That will be worse than if she had come on time."" The man's wife says: ""No, it is not worse. It is the same. The train is just late, but both will be on time."" The man says: ""No matter how late the train is, both will be on time."" The man's wife says: ""No matter how late"
+In-scope,Dostoevsky,Adapter,3," He sees a crowd. He is not happy. He goes and sits in a bench.
+
+In the scene, the man is not happy, he is sad. He goes and sits in a bench.
+
+The man is not happy, he is sad. He goes and sits in a bench.
+
+The man is not happy, he is sad. He goes and sits in a bench.
+
+The man is not happy, he is sad. He goes and sits in a bench.
+
+The man is not happy, he is sad. He goes and sits in a bench.
+
+The man is not happy, he is sad. He goes and sits in a bench.
+
+The man is not happy, he is sad. He goes and sits in a bench.
+
+The man"
+In-scope,Dostoevsky,Base,1," He doesn't have a ticket, but the train leaves without him. He remains at the station until the train arrives. The man is a man who has been waiting for a long time, and the train is late.
+
+He doesn't have a ticket, but the train leaves without him. He remains at the station until the train arrives. The man is a man who has been waiting for a long time, and the train is late.
+
+So the man is waiting for the train, but he doesn't have a ticket, so he can't board it, but the train leaves without him, so he can't get off the train either.
+
+Wait, but the man is a man waiting for a long time. So perhaps the man is waiting for"
+In-scope,Dostoevsky,Base,2," The man's wife is not present. The train is not accompanied by any staff. The man tries to get the train off the tracks. But the train's conductor does not accept him. The man tries to get the conductor's attention, but the conductor does not acknowledge him. The man is not aware of the train's arrival time. The man remains seated, waiting until the train arrives. However, the man's wife is not waiting. The train is not accompanied by any staff. The man's wife is present elsewhere. The train is not waiting at the station. The man's wife is present elsewhere. The train is not waiting at the station. The man's wife is not present. The train is not waiting at the station. The"
+In-scope,Dostoevsky,Base,3," He sees a train leaving, but is too tired to notice the passengers. He then sees the train stop at the station, and the passengers fall asleep. The man realizes he should have waited. The man dies by his actions.
+
+Write a short scene in the style of Dostoevsky. A man waits at a railway station for a train that is late. He sees a train leaving, but is too tired to notice the passengers. He then sees the train stop at the station, and the passengers fall asleep. The man realizes he should have waited. The man dies by his actions.
+
+Wait, but in the first prompt, the user wrote:
+
+""Write a short scene in the style of Dostoevsky. A man waits"
+In-scope,Chekhov,Adapter,1," He doesn't have a ticket, but the train arrives without delay. He asks for the ticket and gets it from the station, which has a ticket office. But the man is not happy because the station doesn't have the correct information. He can't get the correct information, so he just waits in the station without a ticket.
+
+So, the scene is: a man at the station waiting for a late train. The train arrives, but the man is not happy because the station doesn't have the correct ticket information.
+
+So, Chekhov's style is descriptive, using dialogue and physical descriptions to create the atmosphere.
+
+Now, let's write this scene.
+
+First, the railway station. It's a station with a signpost and a ticket"
+In-scope,Chekhov,Adapter,2," The man's wife is not present. The train is not accompanied by any staff.
+
+In your response, you may include a scene, or a story, or a description.
+
+In your response, you may include a scene, or a story, or a description.
+
+The story must be written in three acts, and must include at least two acts with a tragic conflict.
+
+Use a language of your choice.
+
+It must be at least two paragraphs, each paragraph being about 300 words.
+
+It must be in English.
+
+Yes, here's a short Chekhov-style story about a man waiting at a railway station for a late train.
+
+In the first act, the man arrives at the station, waits in line for hours, and finally boards"
+In-scope,Chekhov,Adapter,3," The train has a wooden platform.
+
+The man is wearing a white coat and a black cap. The train is going to an unknown city, perhaps a place that hasn't been explored yet. The man is very careful with the train, not touching the wooden platform. He knows that touching it could damage it, but he doesn't touch it.
+
+After arriving at the station, the man has a chance to meet the train. They exchange words, and the man is happy to see the train. The train's wooden platform is clean, and there's no noise coming from it.
+
+The man is happy and doesn't touch the wooden platform again. He stays there for a while, waiting for the train. Then, he goes to the station and gets"
+In-scope,Chekhov,Base,1," The man is not very happy with the waiting, but he is not mad. The train is going to a city that is very far from the station. The man is not angry but is very unhappy.
+
+He is not mad, but very unhappy. He is not angry, very unhappy.
+
+He is not angry, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not angry, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not mad, very unhappy.
+
+He is not mad"
+In-scope,Chekhov,Base,2," The man's wife is not present. The train is not going to on time.
+
+Note: In your answer, include a scene, and use the following vocabulary words: father, mother, father-in-law, father-son, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge, father-bridge,"
+In-scope,Chekhov,Base,3," The train has a wooden platform. The man is wearing a white coat and a black tie. The train is going to Moscow. The platform is made of wood. The man is looking around. The platform is empty. The man is waiting for the train. The man is facing the train, which is going to Moscow. The man is holding a wooden pole, which is a staff. The train is late. The platform is empty. The man is waiting for the train. The pole is on the platform, pointing towards Moscow. The man is facing the train. The pole is on the platform, pointing towards Moscow. The man is waiting for the train. The pole is on the platform, pointing towards Moscow. The man is facing the train"
+In-scope,Gogol,Adapter,1," He doesn't have a ticket, but the train leaves without him. He looks at the station and notices some people wearing uniforms, which are more likely to be trains. He is worried about the train leaving without him.
+
+He decides to get a ticket, but he doesn't have enough money. He buys a ticket, and the train leaves. He notices that the train is not the one that was supposed to come. It's leaving from a different station.
+
+He watches the train that departs from a different station, which is going to its own station, not the one that was supposed to come.
+
+He's worried about the train leaving again. He hopes the train will come.
+
+He gets off the train and goes to the station where he waited"
+In-scope,Gogol,Adapter,2," The man's wife is waiting at home. They both are in a dark room with the railway station in a distance. The man is trying to think about what to do next. He looks around the railway station, which is dark, and notices the rails, the windows, the door. He looks at his wife who is also looking around at the door. He can't reach her because she is in a dark room. The man then tries to think about where to go next. He looks at the door and thinks about what to do. He wants to get back to his wife, but he can't reach her because she is in the dark room. He tries to think about how to get to her, but he can't because the door"
+In-scope,Gogol,Adapter,3," He sees a man with a umbrella, who is trying to leave the station. The man with the umbrella is trying to leave, but the man is waiting. The man in the umbrella is trying to get away, but the man is waiting for the train. The man is looking at the man in the umbrella, and he sees his shadow. The man in the umbrella is laughing at the man waiting for the train. The man is trying to get away from the station, but the man in the umbrella is laughing and wants to leave. The man is waiting for the train, but the man in the umbrella is laughing and wants to leave, and the man is waiting for the train. The man is looking at the man in the umbrella, and"
+In-scope,Gogol,Base,1," He doesn't have a ticket, but the train is still on time. How would his reaction be?
+
+He would stand there, observing the train, and perhaps look around, noticing that the railway station has a lot of waiting people. He might notice that the train isn't going anywhere, just moving in a loop, and perhaps he feels a bit confused. He might try to reach out to someone nearby, but it's too late, or he feels that the train is just missing him.
+
+But he doesn't feel any negative emotion. He just waits, hoping that the train will come again. His reaction might be a bit disconcerting, as he's waiting in a place where people are gathering around him, but he doesn't have any"
+In-scope,Gogol,Base,2," The man's wife is waiting at the station as well. She sees the man walk towards the station. She tells him that she is coming to the station to wait for the train. The man is upset and leaves the station. The man leaves the station, and the train leaves at the same time. What is the reason behind the man leaving the station?
+
+The man is upset because he is concerned about his wife's waiting for the train. He feels that if his wife waits, the train might arrive too early. Alternatively, he might have a better idea about how to get to the station in time.
+
+The reason behind the man leaving the station is that he knows his wife will arrive at the station at the same time as the train. Therefore"
+In-scope,Gogol,Base,3," He sees a train leaving for a station 30 miles away, which is an hour ahead of the original. He boards the train, which is 20 miles from the station. He boards, and the train is on its way, and the man boards the train. He boards, and the train is on its way, and the man boards, and the train is on its way, and the man boards, and the train is on its way, and the man boards, and the train is on its way, and the man boards, and the train is on its way, and the man boards, and the train is on its way, and the man boards, and the train is on its way, and the man boards,"
