@@ -3,7 +3,6 @@
 A small blind, rubric-based test of [salakash/SamKash-Tolstoy](https://huggingface.co/salakash/SamKash-Tolstoy), a LoRA adapter on DeepSeek-R1-Distill-Qwen-1.5B. Each prompt was run with the adapter on and off (base model), then scored blind.
 
 - Article: _Medium link to be added after publishing_
-- Spreadsheets (easier to view): [Google Drive folder](https://drive.google.com/drive/folders/10_aOcKRGlYg5jrLOqBeaKXe0GGfqSzLz)
 
 ## Final run: `run2_temp-0.7/`
 **Settings** (from the model's published examples): temperature 0.7, top-p 0.9, 180 new tokens, plain-text prompts (no chat template).
