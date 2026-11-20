@@ -5,30 +5,40 @@ A small blind, rubric-based test of [salakash/SamKash-Tolstoy](https://huggingfa
 - Article: _Medium link to be added after publishing_
 - Spreadsheets (easier to view): [Google Drive folder](https://drive.google.com/drive/folders/10_aOcKRGlYg5jrLOqBeaKXe0GGfqSzLz)
 
-## Method
-- Same settings for every output: temperature 0.8, top-p 0.9, first 150 tokens, plain-text prompts (no chat template).
-- 3 samples per condition per author, with the same random seeds for adapter and base.
-- Outputs shuffled within each author, condition hidden, scored by ID, key kept in a separate file.
-- Six checks per output: complete prose, on scene, coherent, meta-commentary, repetition, literary style. Score 0-7, shown as a percentage.
+## Final run: `run2_temp-0.7/`
+**Settings** (from the model's published examples): temperature 0.7, top-p 0.9, 180 new tokens, plain-text prompts (no chat template).
 
-## Tests
-| | In-scope test | Stress test |
+**Prompts** follow the model card's format, `Write a short scene in the style of <work>: <scene>`, with one scene for all three works:
+`a woman anxiously waits for a letter from a friend she hasn't seen in a long time.`
+Works: *Anna Karenina* (Tolstoy), *Crime and Punishment* (Dostoevsky), *The Lady with the Dog* (Chekhov).
+
+**Design:** 3 works x 2 conditions (adapter / base) x 3 samples = 18 outputs, with the same random seeds for both conditions. Outputs were shuffled within each work, the condition was hidden, and each output was scored by blind ID before the key was opened.
+
+**Six checks per output:** complete prose, on scene, coherent, meta-commentary (counts against), repetition (counts against), literary style (0-2). Score 0-7, shown as a percentage.
+
+| | Adapter | Base |
 |---|---|---|
-| Authors | Dostoevsky, Chekhov, Gogol | Tolstoy, Gorky, Pushkin |
-| Scene | A man waits at a railway station for a train that is late | A family sits in silence at the dinner table after an argument, each one staring at a phone |
-| Adapter vs base | 38.1% vs 34.9% | 19.0% vs 31.7% |
+| Overall | 33.3% (21/63) | 33.3% (21/63) |
+| Anna Karenina | 28.6% | 19.0% |
+| Crime and Punishment | 47.6% | 42.9% |
+| The Lady with the Dog | 23.8% | 38.1% |
+
+Checks answered "Yes" (out of 9, adapter vs base): prose 6 vs 3, on scene 6 vs 4, coherent 5 vs 6, meta-commentary 5 vs 1, repetition 9 vs 9. Literary style was 0 for all 18 outputs.
+
+## Earlier run: `run1_temp-0.8/`
+An earlier run at temperature 0.8 (more varied outputs), with author names in the prompts and different scenes, plus a stress test outside the model card's scope. It is not used in the article because I reran everything at the model card's settings. The big picture was similar: small differences between adapter and base, and almost no literary style. See the README inside that folder.
 
 ## Files
-- `scripts/main.py`: generation script. As saved, it reproduces the in-scope test. The stress test used the same setup with a different scene and authors.
-- `inscope_test/` and `stress_test/`: raw outputs, blind scoring sheet, blind key, and final scoring file for each test. The stress test generated 5 samples per condition, and the first 3 were scored.
-- `early_exploration/` (if present): my first informal try, before the blind test.
+- `run2_temp-0.7/scripts/main.py`: generation script for the final run
+- `run2_temp-0.7/`: raw outputs, blind scoring sheet (with notes), blind key, final scoring file
+- `run1_temp-0.8/`: files from the earlier run
 
 ## Run it
 ```
 pip install -r requirements.txt
-python scripts/main.py
+python run2_temp-0.7/scripts/main.py
 ```
 The first run downloads the base model and adapter from Hugging Face.
 
 ## Caveats
-Small sample (9 outputs per condition per test), one scorer, and rubric wording refined during the stress test. See the article for details.
+Small sample (9 outputs per condition), one scorer, one scene, one temperature. I settled a few borderline scoring rules while scoring (for example, how to mark outputs that repeat a single sentence) and applied them to all 18 outputs. The model's author suggests lower temperatures (0.4-0.7) for tighter outputs, and I only tested 0.7.

@@ -1,0 +1,19 @@
+blind_id,test,prompt,condition,sample
+A01,In-scope,Anna Karenina,Adapter,1
+A02,In-scope,Anna Karenina,Adapter,2
+A06,In-scope,Anna Karenina,Adapter,3
+A04,In-scope,Anna Karenina,Base,1
+A05,In-scope,Anna Karenina,Base,2
+A03,In-scope,Anna Karenina,Base,3
+C05,In-scope,Crime and Punishment,Adapter,1
+C06,In-scope,Crime and Punishment,Adapter,2
+C02,In-scope,Crime and Punishment,Adapter,3
+C03,In-scope,Crime and Punishment,Base,1
+C04,In-scope,Crime and Punishment,Base,2
+C01,In-scope,Crime and Punishment,Base,3
+L06,In-scope,The Lady with the Dog,Adapter,1
+L04,In-scope,The Lady with the Dog,Adapter,2
+L03,In-scope,The Lady with the Dog,Adapter,3
+L01,In-scope,The Lady with the Dog,Base,1
+L05,In-scope,The Lady with the Dog,Base,2
+L02,In-scope,The Lady with the Dog,Base,3
